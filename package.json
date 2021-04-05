@@ -11,9 +11,8 @@
     "@sap/hana-client": "^2.4.177",
     "express": "^4"
   },
-  "devDependencies": {},
   "scripts": {
-    "hana": "cds deploy --to hana:back_caio --auto-undeploy",
+    "hana": "cds deploy --to hana:hana_vscode --auto-undeploy",
     "start": "npx cds run",
     "build": "cds build"
   },
