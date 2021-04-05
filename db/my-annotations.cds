@@ -1,4 +1,4 @@
-using my.persons.definition as my from './data-model';
+using model.definition as my from './data-model';
 
 annotate my.Pessoa with @(
     title       : '{i18n>tableT}',
